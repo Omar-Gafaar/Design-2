@@ -6,7 +6,7 @@ body {
 }
  header{
   
-  background-image: url("http://s1.picswalls.com/wallpapers/2014/08/08/house-backgrounds_015635739_148.jpg") ;
+  background-image: url("images/bck2.png") ;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -382,7 +382,7 @@ section.price-options h2{
 
 section.stylish{
   
-  background-image: url("http://s1.picswalls.com/wallpapers/2014/08/08/house-backgrounds_015635739_148.jpg") ;
+  background-image: url("images/bck2.png") ;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
