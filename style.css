@@ -140,7 +140,7 @@ section .bck-1{
     background-color: #F3F3F3;
   }
 
-  section .bck-1 .tabs-in li{
+  section .bck-1 .tabs-switch li{
     
     background-color: #333;
     color: #FFF;
@@ -148,13 +148,19 @@ section .bck-1{
     height: 110px;
     line-height: 110px;
     cursor: pointer;
+    animation: bounce 2.0s infinite ease-in-out;
+  }
+  .tabs-content div:not(.tab-1){
+    display: none;
   }
 
-  section .bck-1 .tabs-in li.selected{
+  section .bck-1 .tabs-switch li.selected{
     background-color: #ff8b38;
   }
-  section .bck-1 .tabs-in li:hover{
+  section .bck-1 .tabs-switch li:hover{
     background-color: #ff8b38;
+    
+    
   }
 
   section .bck-1 .tabs-content h3{
